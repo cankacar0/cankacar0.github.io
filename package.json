@@ -1,0 +1,17 @@
+{
+  "name": "freelancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss -o public/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lightbox2": "^2.11.4",
+    "node-sass": "^9.0.0",
+    "owl.carousel": "^2.3.4",
+    "sass": "^1.63.6"
+  }
+}
