@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="/public/css/main.css">
     <title>Resume</title>
     <style>
         
@@ -18,7 +18,7 @@
 
     <script>
         // PDF dosyasının URL'sini belirtiyoruz
-        const pdfUrl = "public/doc/cv.pdf"; // Burayı kendi PDF URL'nizle değiştirin
+        const pdfUrl = "/public/doc/cv.pdf"; // Burayı kendi PDF URL'nizle değiştirin
 
         // PDF görüntüleyici iframe'ini dolduruyoruz
         const pdfViewer = document.getElementById("pdf-viewer");
@@ -29,7 +29,7 @@
         downloadBtn.addEventListener("click", () => {
             const a = document.createElement("a");
             a.href = pdfUrl;
-            a.download = "public/doc/cv.pdf"; // İndirilecek dosyanın adı
+            a.download = "/public/doc/cv.pdf"; // İndirilecek dosyanın adı
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
