@@ -1,3 +1,11 @@
+@media (max-width:830px){
+    #projects{
+        .items{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+}
+
 
 //tablets
 @media (max-width: 768px){
@@ -20,6 +28,8 @@
     #home__c .process, .items{
         grid-template-columns: repeat(2,1fr);
     }
+
+   
  
 }
 
@@ -100,6 +110,7 @@
             .info{
                 grid-template-columns: 1fr;
             }
+
         }
 
         &-c{
@@ -132,6 +143,12 @@
                     margin-bottom: 0;
                 }
             }
+        }
+    }
+
+    #projects{
+        .items{
+            grid-template-columns: 1fr;
         }
     }
 
