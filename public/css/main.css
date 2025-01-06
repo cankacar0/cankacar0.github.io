@@ -18,7 +18,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px; }
+    font-size: 1.5rem; }
   .resume button:hover {
     background-color: #151212; }
 
@@ -37,11 +37,12 @@
     #about-a .info__bio button {
       border: none;
       background-color: #062040;
-      padding: 10px;
+      padding: 0.8rem 1.5rem;
       border-radius: 1rem;
-      margin: 5px; }
+      margin: 1.6rem; }
       #about-a .info__bio button a {
-        color: #fff; }
+        color: #fff;
+        font-size: 1.2rem; }
 
 #about-b {
   color: #fff; }
@@ -341,12 +342,18 @@ img {
     .items .item .source_code {
       background-color: #062040;
       color: #fff;
-      padding: 5px 15px;
-      border-radius: 5px; }
+      padding: 0.5rem 1.5rem;
+      border-radius: 5px 10px;
+      margin: 1rem;
+      font-size: 1rem;
+      transition: all 0.2s; }
+      .items .item .source_code:hover {
+        opacity: 0.8; }
     .items .item .item__text__wrap {
-      margin-bottom: 10px; }
+      margin-bottom: 2rem; }
     .items .item .item__text__title {
-      margin-bottom: 5px; }
+      margin-bottom: 1rem;
+      font-size: 1rem; }
 
 .container {
   max-width: 1200px;
